@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Streaming de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .movie {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .movie img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .movie a {
+            display: block;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .movie a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    
+
+<h1>Streaming de Filmes</h1>
+
+<div class="movie-list">
+    <div class="movie">
+        <img src="" alt="Filme 1">
+        <h2>Filme 1</h2>
+        <a href="link_para_video_do_filme1.mp4" target="_blank">Assistir</a>
+    </div>
+    <div class="movie">
+        <img src="link_da_imagem_do_filme2.jpg" alt="Filme 2">
+        <h2>Filme 2</h2>
+        <a href="link_para_video_do_filme2.mp4" target="_blank">Assistir</a>
+    </div>
+    <div class="movie">
+        <img src="link_da_imagem_do_filme3.jpg" alt="Filme 3">
+        <h2>Filme 3</h2>
+        <a href="link_para_video_do_filme3.mp4" target="_blank">Assistir</a>
+    </div>
+    <!-- Adicione mais filmes conforme necessário -->
+</div>
+
 </body>
 </html>
