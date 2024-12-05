@@ -1,40 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-h1 {
-    text-align: center;
-    color: #333;
-}
-.movie-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.movie {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-}
-.movie img {
-    max-width: 100%;
-    border-radius: 5px;
-}
-.movie a {
-    display: block;
-    margin-top: 10px;
-    background-color: #007BFF;
     color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
-.movie a:hover {
-    background-color: #0056b3;
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
